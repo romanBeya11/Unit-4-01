@@ -1,0 +1,89 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{129, 19}, {228, 55}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "instructions_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "AB561F5D-9FC2-47EB-AB3E-89DFA6A3737C",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter the temperature in celsius",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{144, 104}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "temp_textfield",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "80F7FE2C-C621-4E90-B039-6E88E16D0416",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{172, 162}, {137, 68}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "convert_temperature_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Convert",
+          "uuid" : "9B0B88F6-A4B6-468B-BEAF-A176BD973C01",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "convert_button",
+          "font_size" : 20
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{112, 238}, {259, 86}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "output_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "58FE0E7D-2A85-42B1-BE6D-5118AB3E2B10",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
